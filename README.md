@@ -9,7 +9,7 @@ To see it in action:
 
 When an SSG'd page is served, any elements with intro animations appear with their `opacity` set to `1`.  When the page is hydrated, they quickly disappear before starting their intro transition.  Doesn't look good, especialy for pages with ellaborate intro animations.
 
-Potential solution:
+## Potential solution:
 
 - Set the `node.style.opacity` to whatever `opacity` is fed to the transition (default 0).
 - Add an `introend` event listener to apply the `target_opacity` (the nodes initial opacity).
