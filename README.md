@@ -7,7 +7,7 @@ To see it in action:
 
 ## Problem
 
-When an SSG'd page is served, any elements with intro animations appear with their `opacity` set to `1`.  When the page is hydrated, they quickly disappear before starting their intro transition.  Doesn't look good, especialy for pages with ellaborate intro animations.
+When an SSG'd page is served, any elements with intro animations appear with their `opacity` set to `1`.  When the page is hydrated, they quickly disappear before starting their intro transition.  Doesn't look good, especially for pages with elaborate intro animations.
 
 ## Potential solution:
 
