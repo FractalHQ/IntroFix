@@ -1,0 +1,16 @@
+{
+	"deno.enable": true,
+	"deno.unstable": true,
+	"editor.formatOnSave": false,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"beautify.language": {
+		"json": {
+			"ext": ["json"],
+			"type": ["json"],
+			"filename": [".jshintrc", ".jsbeautifyrc"]
+		}
+	}
+}
